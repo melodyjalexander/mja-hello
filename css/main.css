@@ -1,0 +1,99 @@
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "Canela-Thin";
+  src: url("Canela-ThinItalic.woff2") format("woff2"),
+    url("Canela-ThinItalic.woff") format("woff");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Canela-Thin";
+  src: url("Canela-Thin.woff2") format("woff2"),
+    url("Canela-Thin.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("Canela-RegularItalic.woff2") format("woff2"),
+    url("Canela-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("Canela-Regular.woff2") format("woff2"),
+    url("Canela-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("Canela-Light.woff2") format("woff2"),
+    url("Canela-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("Canela-LightItalic.woff2") format("woff2"),
+    url("Canela-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #fffe6a;
+  color: #151515;
+}
+
+#content {
+  padding: 3vw 5vw 5vw 5vw;
+  margin-right: 20vw;
+}
+
+h1 {
+  font-family: "Canela";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 5vw;
+}
+
+p {
+  font-family: "Canela-Thin";
+  font-size: 3.5vw;
+  line-height: 125%;
+}
+
+.intro-about {
+  margin: 0.68rem 0;
+}
+
+.intro-body {
+  margin: 0.68rem 0;
+}
+
+img,
+.imagelogo {
+  width: 30vw;
+  padding-bottom: 20px;
+}
